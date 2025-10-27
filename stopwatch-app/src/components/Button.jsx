@@ -1,4 +1,4 @@
-function Button({startClicked, setStartClicked, buttonStyle, setHourCount,setMinuteCount, setSecondCount}) {
+function Button({startClicked, setStartClicked, setHourCount,setMinuteCount, setSecondCount}) {
     const startClick = () => {
         setStartClicked(!startClicked);
     }
